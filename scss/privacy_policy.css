@@ -44,11 +44,11 @@ header .header_container h1 a {
   margin: 80px auto;
   padding: 0 20px;
 }
-.container .terms-of-use h2 {
+.container .privacy_policy h2 {
   font-size: 1.5rem;
   text-align: center;
 }
-.container .terms-of-use .content {
+.container .privacy_policy .content {
   margin: 20px auto;
   max-width: 900px;
   height: 400px;
@@ -56,21 +56,6 @@ header .header_container h1 a {
   padding: 20px;
   box-sizing: border-box;
   background: #eee;
-}
-.container .check-box {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.container .link-btn {
-  text-align: center;
-}
-.container .link-btn #next {
-  padding: 10px 20px;
-  color: #fff;
-  background: #008080;
-  border-radius: 4px;
-  display: inline;
-  opacity: 0.5;
 }
 
 footer {
@@ -102,4 +87,4 @@ footer .footer_container ul li:nth-child(2) {
 footer .footer_container .copyright {
   font-size: 0.875rem;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=privacy_policy.css.map */

@@ -44,33 +44,42 @@ header .header_container h1 a {
   margin: 80px auto;
   padding: 0 20px;
 }
-.container .terms-of-use h2 {
+.container .row h2 {
   font-size: 1.5rem;
-  text-align: center;
-}
-.container .terms-of-use .content {
-  margin: 20px auto;
-  max-width: 900px;
-  height: 400px;
-  overflow: scroll;
-  padding: 20px;
-  box-sizing: border-box;
-  background: #eee;
-}
-.container .check-box {
   text-align: center;
   margin-bottom: 20px;
 }
-.container .link-btn {
-  text-align: center;
+.container .row dl {
+  display: flex;
+  flex-wrap: wrap;
 }
-.container .link-btn #next {
-  padding: 10px 20px;
-  color: #fff;
-  background: #008080;
-  border-radius: 4px;
-  display: inline;
-  opacity: 0.5;
+.container .row dl dt {
+  width: 20%;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+.container .row dl dt:last-child {
+  border-bottom: 1px solid #ccc;
+}
+.container .row dl dd {
+  width: 80%;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-bottom: none;
+}
+.container .row dl dd #num {
+  color: #0080ff;
+}
+.container .row dl dd #change {
+  color: #f33;
+}
+.container .row dl dd:last-child {
+  border-bottom: 1px solid #ccc;
 }
 
 footer {
@@ -102,4 +111,4 @@ footer .footer_container ul li:nth-child(2) {
 footer .footer_container .copyright {
   font-size: 0.875rem;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=row.css.map */
