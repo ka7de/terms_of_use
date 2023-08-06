@@ -25,17 +25,17 @@ body {
 header {
   max-width: 100%;
   background: #007dc5;
-  height: 80px;
+  height: 40px;
   padding: 10px 20px;
   box-sizing: border-box;
   position: relative;
 }
 header .header_container h1 a {
-  line-height: 2rem;
+  line-height: 1rem;
   position: absolute;
-  top: 25px;
+  top: 10px;
   left: 20px;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #fff;
   font-family: "Playfair Display", serif;
 }
