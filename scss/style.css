@@ -45,6 +45,14 @@ header .header_container h1 a {
   margin: 80px auto;
   padding: 0 20px;
 }
+.container .terms-of-use .intro {
+  max-width: 900px;
+  padding: 0 20px;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
 .container .terms-of-use h2 {
   font-size: 1.5rem;
   text-align: center;
@@ -57,7 +65,7 @@ header .header_container h1 a {
   overflow: scroll;
   padding: 20px;
   box-sizing: border-box;
-  background: #eee;
+  background: #f4f4f4;
 }
 .container .check-box {
   text-align: center;
