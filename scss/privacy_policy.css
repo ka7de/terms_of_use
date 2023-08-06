@@ -24,7 +24,7 @@ body {
 
 header {
   max-width: 100%;
-  background: #eee;
+  background: #007dc5;
   height: 80px;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -36,7 +36,8 @@ header .header_container h1 a {
   top: 25px;
   left: 20px;
   font-size: 1.6rem;
-  color: #000;
+  color: #fff;
+  font-family: "Playfair Display", serif;
 }
 
 .container {
@@ -47,6 +48,7 @@ header .header_container h1 a {
 .container .privacy_policy h2 {
   font-size: 1.5rem;
   text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .container .privacy_policy .content {
   margin: 20px auto;
@@ -60,7 +62,7 @@ header .header_container h1 a {
 
 footer {
   max-width: 100%;
-  background: #eee;
+  background: #007dc5;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -75,7 +77,7 @@ footer .footer_container ul li {
   padding-bottom: 10px;
 }
 footer .footer_container ul li a {
-  color: #000;
+  color: #fff;
   font-size: 0.875rem;
 }
 footer .footer_container ul li:nth-child(1) {
@@ -86,5 +88,6 @@ footer .footer_container ul li:nth-child(2) {
 }
 footer .footer_container .copyright {
   font-size: 0.875rem;
+  color: #fff;
 }
 /*# sourceMappingURL=privacy_policy.css.map */
