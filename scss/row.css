@@ -24,7 +24,7 @@ body {
 
 header {
   max-width: 100%;
-  background: #007dc5;
+  background: #dd7774;
   height: 40px;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -74,9 +74,6 @@ header .header_container h1 a {
   border-left: none;
   border-bottom: none;
 }
-.container .row dl dd #num {
-  color: #0080ff;
-}
 .container .row dl dd #change {
   color: #f33;
 }
@@ -86,7 +83,7 @@ header .header_container h1 a {
 
 footer {
   max-width: 100%;
-  background: #007dc5;
+  background: #dd7774;
   padding: 20px;
   box-sizing: border-box;
 }

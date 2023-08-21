@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 li {
   list-style: none;
 }
@@ -24,20 +19,21 @@ body {
 
 header {
   max-width: 100%;
-  background: #007dc5;
+  background: #dd7774;
   height: 40px;
   padding: 10px 20px;
   box-sizing: border-box;
-  position: relative;
 }
-header .header_container h1 a {
+header .header_container {
+  display: flex;
+  justify-content: center;
+}
+header .header_container h1 {
   line-height: 1rem;
-  position: absolute;
-  top: 10px;
-  left: 20px;
   font-size: 1.2rem;
   color: #fff;
   font-family: "Playfair Display", serif;
+  text-align: center;
 }
 
 .container {
@@ -77,7 +73,7 @@ header .header_container h1 a {
 .container .link-btn #next {
   padding: 10px 20px;
   color: #fff;
-  background: #007dc5;
+  background: #dd7774;
   border-radius: 4px;
   display: inline;
   opacity: 0.5;
@@ -85,7 +81,7 @@ header .header_container h1 a {
 
 footer {
   max-width: 100%;
-  background: #007dc5;
+  background: #dd7774;
   padding: 20px;
   box-sizing: border-box;
 }
