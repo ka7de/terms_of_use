@@ -135,3 +135,35 @@ footer{
         }
     }
 }
+
+@media screen and (max-width:390px){
+    header{
+        .header_container{
+            h1{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .container{
+        margin: 50px auto;
+
+        .row{
+            h2{
+                font-size: 1.3rem;
+            }
+
+            dl{
+                dt{
+                    font-size: 0.9rem;
+                }
+
+                dd{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}

@@ -111,4 +111,22 @@ footer .footer_container .copyright {
   font-size: 0.875rem;
   color: #fff;
 }
+
+@media screen and (max-width: 390px) {
+  header .header_container h1 a {
+    font-size: 1rem;
+  }
+  .container {
+    margin: 50px auto;
+  }
+  .container .row h2 {
+    font-size: 1.3rem;
+  }
+  .container .row dl dt {
+    font-size: 0.9rem;
+  }
+  .container .row dl dd {
+    font-size: 0.9rem;
+  }
+}
 /*# sourceMappingURL=row.css.map */

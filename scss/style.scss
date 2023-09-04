@@ -134,3 +134,29 @@ footer{
         }
     }
 }
+
+@media screen and (max-width:390px){
+    header{
+        .header_container{
+            h1{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .container{
+        margin: 50px auto;
+
+        .terms-of-use{
+            .intro{
+                font-size: 1rem;
+            }
+
+            h2{
+                font-size: 1.3rem;
+            }
+
+            
+        }
+    }
+}

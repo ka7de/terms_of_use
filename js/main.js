@@ -8,5 +8,10 @@ $(function(){
             btn.html('商品を選ぶ');
             $('#next').css('opacity','0.5');
         }
-    })
-})
+    });
+
+    if (navigator.userAgent.indexOf('Android') > 0) {
+        let body = document.getElementsByTagName('body')[0];
+        body.classList.add('Android');
+    };
+});

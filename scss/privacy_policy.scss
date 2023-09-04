@@ -109,3 +109,23 @@ footer{
         }
     }
 }
+
+@media screen and (max-width:390px){
+    header{
+        .header_container{
+            h1{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .container{
+        margin: 50px auto;
+
+        .privacy_policy{
+            font-size: 1.3rem;
+        }
+    }
+}
