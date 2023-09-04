@@ -129,4 +129,21 @@ footer .footer_container .copyright {
     font-size: 0.9rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .Android header .header_container h1 a {
+    font-size: 1rem;
+  }
+  .Android .container {
+    margin: 50px auto;
+  }
+  .Android .container .row h2 {
+    font-size: 1.3rem;
+  }
+  .Android .container .row dl dt {
+    font-size: 0.9rem;
+  }
+  .Android .container .row dl dd {
+    font-size: 0.9rem;
+  }
+}
 /*# sourceMappingURL=row.css.map */

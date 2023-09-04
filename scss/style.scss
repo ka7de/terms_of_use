@@ -156,7 +156,33 @@ footer{
                 font-size: 1.3rem;
             }
 
-            
+
+        }
+    }
+}
+
+@media screen and (max-width:360px){
+    .Android header{
+        .header_container{
+            h1{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .Android .container{
+        margin: 50px auto;
+
+        .terms-of-use{
+            .intro{
+                font-size: 1rem;
+            }
+
+            h2{
+                font-size: 1.3rem;
+            }
+
+
         }
     }
 }

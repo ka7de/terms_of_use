@@ -129,3 +129,23 @@ footer{
         }
     }
 }
+
+@media screen and (max-width:360px){
+    .Android header{
+        .header_container{
+            h1{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .Android .container{
+        margin: 50px auto;
+
+        .privacy_policy{
+            font-size: 1.3rem;
+        }
+    }
+}

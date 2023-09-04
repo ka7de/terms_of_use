@@ -102,4 +102,15 @@ footer .footer_container .copyright {
     font-size: 1.3rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .Android header .header_container h1 a {
+    font-size: 1rem;
+  }
+  .Android .container {
+    margin: 50px auto;
+  }
+  .Android .container .privacy_policy {
+    font-size: 1.3rem;
+  }
+}
 /*# sourceMappingURL=privacy_policy.css.map */

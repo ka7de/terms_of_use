@@ -167,3 +167,35 @@ footer{
         }
     }
 }
+
+@media screen and (max-width:360px){
+    .Android header{
+        .header_container{
+            h1{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .Android .container{
+        margin: 50px auto;
+
+        .row{
+            h2{
+                font-size: 1.3rem;
+            }
+
+            dl{
+                dt{
+                    font-size: 0.9rem;
+                }
+
+                dd{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
